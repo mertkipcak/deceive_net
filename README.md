@@ -25,7 +25,7 @@ Open the notebook, run the notebook, read the comments of the notebook...
 ## Results
 The following images show the predicted label, and the confidence (from 0.00 to 1.00) of the model. To be clear, the model achieves a validation error of ~99.2% accuracy on the validation data.
 
-[](./images/mnist_confidence.png)
+![Adversarial results](./images/mnist_confidence.png)
 
 ## Implications
 The results of this experiment are crucial for understanding the limitations and vulnerabilities of neural networks, especially in applications where security and reliability are important. It underscores the necessity for robust adversarial training and the development of models resilient to such deceptive practices.
