@@ -16,8 +16,9 @@ The primary goal of this project is to highlight the ease with which a sophistic
 The results of this experiment are crucial for understanding the limitations and vulnerabilities of neural networks, especially in applications where security and reliability are paramount. It underscores the necessity for robust adversarial training and the development of models resilient to such deceptive practices.
 
 ## Repository Contents
-- `CNN_Training.ipynb`: Jupyter notebook for training the CNN on MNIST.
-- `Adversarial_Attack.ipynb`: Notebook demonstrating the process of crafting and training the deceptive image.
+- `cnn_Training.ipynb`: Jupyter notebook for training the CNN on MNIST.
+- `deceive_mnist.ipynb`: Notebook demonstrating the process of crafting and training the deceptive image.
+- `data/`: Holds the MNIST dataset
 - `models/`: Directory containing the trained CNN model.
 - `images/`: Sample outputs including the deceptive image and its classification result.
 
