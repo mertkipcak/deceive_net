@@ -32,6 +32,6 @@ The results of this experiment are crucial for understanding the limitations and
 
 ## Followup
 I also trained a new network with gibberish images so that it identifies random noise as it's own class, however, when new images are trained with the new network, they also looked nothing like what they are supposed to.
-![Second Adverserial Results](./images/mnist_confidence.png)
+![Second Adverserial Results](./images/second_mispredicted.png)
 
 Though it seems like some patterns are emerging, as unlike the last time, these don't look completely random. A further investigation would be repeating this process for multiple times, and see if we can basically generate handwritten digits by our method.
